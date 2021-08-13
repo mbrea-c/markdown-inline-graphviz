@@ -4,7 +4,7 @@ Markdown Inline Graphviz (for Python 3)
 This is just a continuation of the great job of Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
 in order to get it work with pip3. If you use python 2, please use the original extension instead.
 
-A Python Markdown extension that replaces inline Graphviz definitins with
+A Python Markdown extension that replaces inline Graphviz definitions with
 inline SVGs or PNGs!
 
 Why render the graphs inline? No configuration! Works with any
