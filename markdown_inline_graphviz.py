@@ -107,7 +107,8 @@ class InlineGraphvizPreprocessor(markdown.preprocessors.Preprocessor):
 
             else:
                 break
-        return text.split("\n")
+        text_div_tags = text.replace("<svg", "<div><svg").replace("</svg>", "</svg></div>")
+        return text_div_tags.split("\n")
 
 
 def makeExtension(*args, **kwargs):
