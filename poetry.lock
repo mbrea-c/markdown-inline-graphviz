@@ -1,0 +1,18 @@
+[[package]]
+name = "markdown"
+version = "3.4.1"
+description = "Python implementation of Markdown."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+testing = ["coverage", "pyyaml"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "6b114de3ec42948fca81c97f7086093e6de2d703840b4f78ce673e1f54d7bfdd"
+
+[metadata.files]
+markdown = []
