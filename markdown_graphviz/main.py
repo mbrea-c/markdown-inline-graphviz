@@ -110,8 +110,17 @@ class InlineGraphvizPreprocessor(markdown.preprocessors.Preprocessor):
 
             else:
                 break
-        text_div_tags = text.replace("<svg", "<div><svg").replace(
-            "</svg>", "</svg></div>"
+        text_div_tags = (
+            text.replace("<svg", "<div><svg")
+            .replace("</svg>", "</svg></div>")
+            .replace(
+                """
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+""",
+                "",
+            )
         )
         return text_div_tags.split("\n")
 
