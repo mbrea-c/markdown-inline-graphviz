@@ -1,1 +1,0 @@
-from markdown_graphviz.main import makeExtension
