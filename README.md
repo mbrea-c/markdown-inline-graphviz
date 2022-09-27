@@ -1,7 +1,9 @@
-Markdown Inline Graphviz (for Python 3)
-=======================================
+Note: Forked to fix errors with latest version of Python-Markdown and migrate to
+using Poetry.
 
-This is just a continuation of the great job of Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
+# Markdown Inline Graphviz (for Python 3)
+
+This is just a continuation of the great job of Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz),
 in order to get it work with pip3. If you use python 2, please use the original extension instead.
 
 A Python Markdown extension that replaces inline Graphviz definitions with
@@ -24,7 +26,7 @@ stanza to mkdocs.yml:
 
 ```yaml
 markdown_extensions:
-    - markdown_inline_graphviz
+  - markdown_inline_graphviz
 ```
 
 To use it in your Markdown doc, with SVG output:
@@ -70,7 +72,6 @@ Inspired by [jawher/markdown-dot](https://github.com/jawher/markdown-dot),
 which renders the dot graph to a file instead of inline.
 
 Forked from [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz)
-
 
 # License
 
