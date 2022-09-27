@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "markdown-graphviz"
+name = "python3-markdown-extension-graphviz"
 version = "0.1.0"
 description = ""
 authors = ["Manuel Brea <m.brea.carreras@gmail.com>"]
